@@ -1,1 +1,1 @@
-# python
+# Ufak çaplı Python çalışmalarım
