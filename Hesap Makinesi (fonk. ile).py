@@ -10,16 +10,16 @@ def çarpma(a,b):
 def bölme(a,b):
     return a/b
 
-print("***İşlem Seç***")
+sayı1 = int(input("1. Sayı: "))
+sayı2 = int(input("2. Sayı: "))
+
+print("\n***İşlem Seç***")
 print("1 --> Toplama")
 print("2 --> Çıkarma")
 print("3 --> Çarpma")
 print("4 --> Bölme\n")
 
 secim = input('Seçim: ')
-
-sayı1 = int(input("1. Sayı: "))
-sayı2 = int(input("2. Sayı: "))
 
 if secim == '1':
     print(sayı1, "+", sayı2, "=", toplama(sayı1,sayı2))
